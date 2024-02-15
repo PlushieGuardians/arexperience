@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Este será o primeiro teste de AR com modelo 3D para o PG!</title>
+    <title>Plushie Guardians AR Experience</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="https://unpkg.com/@ar-js-org/ar.js"></script>
@@ -14,7 +14,7 @@
         <a-assets-item id="modelo" src="https://cdn.glitch.global/b7b1187c-5bba-4ad0-9101-a5927712b286/Ilusao_Impulsive_Inspiring.gltf?v=1707437575887"></a-assets-item>
       </a-assets>
 
-      <a-marker present="hiro">
+      <a-marker present="custom" type="pattern" url="assets/pattern-im_Icone_Criatura_Ilusao_a.patt">
         <!--                 <a-box color="blue"> </a-box> -->
         <a-entity id="ilusao3d"
                   position="0 0 0"
